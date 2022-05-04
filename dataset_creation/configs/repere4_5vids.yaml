@@ -1,0 +1,20 @@
+#TODO : change the number of keypoints in the script to use the 5th extra point (at the moment the number 4 is hardcoded)
+INPUT_PATH:
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/DATA/second_session/Repère/GH010491/"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/DATA/second_session/Repère/GH010493/"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/DATA/second_session/Repère/GH010504/"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/DATA/second_session/Repère/GH010505/"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/DATA/second_session/Repère/GH010509/"
+ANNOTATIONS_PATH:
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/ANNOTATIONS/gh010491.mp4-.xml"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/ANNOTATIONS/gh010493.mp4-.xml"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/ANNOTATIONS/gh010504.mp4-.xml"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/ANNOTATIONS/gh010505.mp4-.xml"
+  - "/Users/federico/PycharmProjects/physic_overlay_codebase/ANNOTATIONS/gh010509.mp4-.xml"
+OUTPUT_PATH: "../../datasets/"
+
+OBJECT: "repere" # repere or haltere
+BBOX_PADDING: 5
+N_KEYPOINTS: 4
+DEBUG: False
+
